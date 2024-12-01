@@ -12,15 +12,15 @@
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city..." required class="search-form-input">
+        <form class="search-form" id="search-form-input">
+            <input type="search" placeholder="Enter a city..." required class="search-form-input" class="serach-form-input">
             <input type="submit" value="search" class="search-form-button">
         </form>
     </header>
     <main>
         <div class="weather-app-data">
             <div>
-                <h1 class=" weather-app-city">Perth</h1>
+                <h1 class=" weather-app-city" id="city">Perth</h1>
                 <P class="weather-app-details">
                 Sunday 18:20, showers
                 <br/>
@@ -30,7 +30,7 @@
             <div class="weather-app-temperature-container">
             <div class="weather-app-icon">🌦️</div> 
             <div class="weather-app-temperature">18</div>
-            <div class="weather-app-unit"></div>
+            <div class="weather-app-unit">°C</div>
             </div>
         </div>
     </main>
@@ -41,5 +41,6 @@ Coded by
 <a href="https://weather-app-shecodes-plusproject-2024.netlify.app/" target="_blank">Netlify</a>
 </footer>
 </div>
+<script src="src/script.js"></script>
 </body>
 </html>
