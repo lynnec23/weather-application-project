@@ -85,8 +85,14 @@ main{
     font-size: 28px;
 }
 
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
 .weather-forecast-date {
-    text-align:center
+    text-align:center;
 }
 
 .weather-forecast-day {
